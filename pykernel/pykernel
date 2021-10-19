@@ -1,0 +1,9 @@
+#!/usr/bin/python3.10
+
+import kernel.coreutils.tsh as cutsh
+
+def main():
+    cutsh.Invoke([])
+
+if __name__ == "__main__":
+    main()

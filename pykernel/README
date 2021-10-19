@@ -1,0 +1,9 @@
+PyKernels are different than LKernels because they run on Python.
+
+This example contains a PyKernel.
+
+It contains a Kernel IO API, and contains a shell.
+
+Unlike LKernels, it doesn't contain swapping.
+
+Currently, LKernels are beating PyKernels in low-level abstraction layering and Security.

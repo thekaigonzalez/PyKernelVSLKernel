@@ -1,0 +1,10 @@
+#!/usr/local/bin/lua
+
+local boot = require "kernel.boot"
+local shells = require "kernel.coreutils"
+
+boot:create_new_boot("Test LKernel", function ()
+    shells:sh()
+end)
+
+boot.order[1].init()

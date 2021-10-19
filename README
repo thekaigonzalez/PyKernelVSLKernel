@@ -1,0 +1,5 @@
+Kernels in operating systems are defined as the core of an Operating System, containing the things needed to connect
+the user applications to the hardware.
+
+LKernels & PyKernels work similarly, but instead of connection with the hardware, they connect to the Operating System.
+This allows a "Sub System". Which is the model LKernels and PyKernels are based on.
