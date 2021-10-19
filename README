@@ -3,3 +3,19 @@ the user applications to the hardware.
 
 LKernels & PyKernels work similarly, but instead of connection with the hardware, they connect to the Operating System.
 This allows a "Sub System". Which is the model LKernels and PyKernels are based on.
+
+Speed Benchmark (after 2 tests on each)
+
+PyKernel:
+
+real    0m0.032s
+user    0m0.032s
+sys     0m0.000s
+
+LKernel:
+
+this function is loaded on boot because of the boot swap..
+
+real    0m0.003s
+user    0m0.003s
+sys     0m0.000s
