@@ -1,1 +1,25 @@
 LKernels have an advantage over PyKernels with better low level integration.
+
+LKernels work like this
+
+LKernel applications
+
+^
+|
+
+LKernel
+
+^
+|
+
+Operating System
+
+^
+|
+
+Kernel
+
+^
+|
+
+HardWare
